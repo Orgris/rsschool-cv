@@ -29,6 +29,7 @@ body {
     padding: 5px 10px;
     background-color: #f8f8f8;
     color: #202020;
+    border-top: 2px solid #202020;
 }
 
 .container {
@@ -117,22 +118,24 @@ body {
     padding: 30px 0;
 }
 
-.footer {
-    border-top: 1px solid #202020;
-}
 
 .container.left-main-container, 
 .container.right-main-container {
     padding: 10px 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.container.left-main-container div{
+    border-bottom: 1px solid #202020;
+    margin: 15px 0;
 }
 
 .container.left-main-container {
     flex: 35%;
     background-color:#f8f8f8;
-    border-right: 1px solid #202020;
+    border-right: 2px solid #202020;
 }
 
 .container.left-main-container h2 {
@@ -167,7 +170,7 @@ body {
 
 .section-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
     color:#202020;
@@ -192,7 +195,7 @@ body {
 
 .section-item {
     position: relative;
-    padding-left: 30px;
+    padding-left: 0;
 }
 
 .container.profile-container {
@@ -242,7 +245,6 @@ body {
 }
 .section-title.name {
     position: relative;
-
     color: #f8f8f8;
     font-size: 32px;
     margin: 0 0 15px 0;
@@ -256,9 +258,4 @@ body {
     width: 350px;
     height: 0;
     border: 1px solid #f8f8f8;
-}
-
-
-.container.container.right-main-container section {
-    margin-bottom: 60px;
 }
