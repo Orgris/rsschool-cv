@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>CV</title>
+    <link rel="icon" href=""> <!--TODO Добавить значок сайта -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="container profile-container" id="profile">
+            <div class="image-container">
+                <img src="./assets/img/image-round.png" alt="avatar" />
+            </div>
+            <div class="name-container">
+                <h1 class="section-title name">Maksim Zhidkov</h1>
+                <span class="section-item job-title">Junior Front End developer</span>
+            </div>
+        </section>
+
+        <div class="container main-container">
+            <div class="container left-main-container">
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item"><b>Phone: </b>+7 906 183-50-01</li>
+                        <li class="section-item"><b>Email: </b><a href="mailto:vjmax793@gmail.com"
+                                class="link">vjmax793@gmail.com</a></li>
+                        <li class="section-item"><b>Github: </b><a href="https://github.com/Orgris"
+                                class="link">Orgris</a></li>
+                        <li class="section-item"><b>Telegram: </b><a href="https://t.me/maxon4ik2010"
+                                class="link">@maxon4ik2010</a></li>
+                        <li class="section-item"><b>Discord: </b>Maksim (@orgris)</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">HTML, CSS</li>
+                        <li class="section-item">JavaScript (basics), Java (basics), GDScript (basics), C++
+                            (fundamentals)</li>
+                        <li class="section-item">VS Code, Android Studio, Godot</li>
+                        <li class="section-item">Figma</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Russian - Native</li>
+                        <li class="section-item">English - Intermediate</li>
+                    </ul>
+                </section>
+
+
+            </div>
+            <div class="container right-main-container">
+
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>A dedicated beginner developer with a passion for learning and developing high-quality products.
+                        Committed to keeping up with the latest web technologies and trends to continuously improve and
+                        expand professional abilities in the field of web development.</p>
+                    <p>My key strengths include strategic thinking, collaboration, and adaptability.</p>
+                </section>
+
+                <section class="section" id="code-example">
+                    <h2 class="section-title">Code example</h2>
+                    <p><b>Multiply kata from Codewars:</b> This code does not execute properly. Try to figure out why.
+                    </p>
+                    <pre>
+                        function multiply(a, b){
+                        return a * b
+                        }
+                </pre>
+                </section>
+
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="section-list">
+                        <li class="section-item">
+                            Southern Federal University, Taganrog
+                            <ul>
+                                <li>
+                                    Master's program - Development of information systems and web applications (in
+                                    progress)
+                                </li>
+                                <li>
+                                    Bachelor's program - Information systems and technologies: Advanced information
+                                    technologies
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="section-item">Web development guides on MDN Web Docs (in progress)</li>
+                    </ul>
+                </section>
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                © 2024
+                <a href="https://github.com/Orgris" class="github-link">
+                    Orgris
+                </a>
+            </div>
+            <a href="https://rs.school/courses/javascript-ru" class="rss"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
