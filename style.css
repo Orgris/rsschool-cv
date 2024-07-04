@@ -127,7 +127,7 @@ body {
     justify-content: flex-start;
 }
 
-.container.left-main-container div{
+.horizontal-line{
     border-bottom: 1px solid #202020;
     margin: 15px 0;
 }
@@ -148,6 +148,7 @@ h2 {
 
 .container.right-main-container {
     flex: 65%;
+    gap: 20px;
     background-color:#f8f8f8;
 }
 
