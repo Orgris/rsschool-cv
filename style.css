@@ -1,1 +1,264 @@
+html {
+    scroll-behavior: smooth;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f8f8f8;
+    color: #202020;
+}
+
+.main {
+    background-color: #f8f8f8;
+    color: #202020;
+}
+
+.footer {
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    color: #202020;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content:space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    background-image: linear-gradient(#202020, #202020);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-size: 100% 100%;
+}
+
+.nav-link {
+    padding: 30px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #202020;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #f8f8f8;
+}
+
+.github-link {
+    margin: 30px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #202020;
+    line-height: 50px;
+    text-decoration: none;
+    background-image: linear-gradient(#202020, #202020);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: 0.5s;
+}
+
+.github-link:hover {
+    color: #f8f8f8;
+    background-size: 100% 100%;
+}
+
+.section-item a {
+    color: #202020;
+    text-decoration: none;
+    background-image: linear-gradient(#202020, #202020);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: 0.5s;
+}
+
+.section-item a:hover {
+    color: #f8f8f8;
+    background-size: 100% 100%;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.footer {
+    border-top: 1px solid #202020;
+}
+
+.container.left-main-container, 
+.container.right-main-container {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container.left-main-container {
+    flex: 35%;
+    background-color:#f8f8f8;
+    border-right: 1px solid #202020;
+}
+
+.container.left-main-container h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.container.right-main-container {
+    flex: 65%;
+    background-color:#f8f8f8;
+}
+
+.section {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#202020;
+}
+
+.link {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #e80459;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rsschool-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.container.profile-container {
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 35px 0 35px;
+}
+
+.image-container {
+    margin: auto;
+    flex: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    max-width: 240px;
+    max-height: 240px;
+    margin: auto;
+}
+
+.name-container {
+    margin: auto;
+    flex: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-title {
+    padding: 0;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+
+}
+
+.container.footer-container {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.section-title.name {
+    position: relative;
+
+    color: #f8f8f8;
+    font-size: 32px;
+    margin: 0 0 15px 0;
+}
+
+.section-title.name::after {
+    content: "";
+    position: absolute;
+    top: 120%;
+    right: -5px;
+    width: 350px;
+    height: 0;
+    border: 1px solid #f8f8f8;
+}
+
+
+.container.container.right-main-container section {
+    margin-bottom: 60px;
+}
