@@ -39,7 +39,7 @@ body {
 
 .nav-list {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
 }
@@ -119,7 +119,7 @@ body {
 }
 
 
-.container.left-main-container, 
+.container.left-main-container,
 .container.right-main-container {
     padding: 10px 50px;
     display: flex;
@@ -127,14 +127,14 @@ body {
     justify-content: flex-start;
 }
 
-.horizontal-line{
+.horizontal-line {
     border-bottom: 1px solid #202020;
     margin: 15px 0;
 }
 
 .container.left-main-container {
     flex: 35%;
-    background-color:#f8f8f8;
+    background-color: #f8f8f8;
     border-right: 2px solid #202020;
 }
 
@@ -149,7 +149,7 @@ h2 {
 .container.right-main-container {
     flex: 65%;
     gap: 20px;
-    background-color:#f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .section {
@@ -158,13 +158,13 @@ h2 {
 
 @media (max-width: 768px) {
     .section {
-      width: 100%;
+        width: 100%;
     }
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -174,7 +174,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color:#202020;
+    color: #202020;
 }
 
 .link {
@@ -206,6 +206,12 @@ body {
     justify-content: space-around;
     width: 100%;
     padding: 35px 0 35px;
+
+
+    background-image: url("./assets/img/background-image.jpg");
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .image-container {
@@ -215,6 +221,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .image-container img {
     max-width: 240px;
     max-height: 240px;
@@ -244,6 +251,7 @@ body {
     justify-content: space-between;
     font-weight: 500;
 }
+
 .section-title.name {
     position: relative;
     color: #f8f8f8;
