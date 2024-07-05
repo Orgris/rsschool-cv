@@ -1,4 +1,5 @@
 # Maksim Zhidkov
+## Beginner Front End Developer
 
 ![My photo](https://sun2-19.userapi.com/s/v1/if1/MSCREKV5nRM1bsVIyz7eBwmoz7wvBaMQ0mv92i9DdcVTPSfIKe6xqocNCKbHi55lVq8hWFLe.jpg?quality=96&crop=48,351,335,335&as=32x32,48x48,72x72,108x108,160x160,240x240&ava=1&u=UPHAc8FxrtVYXWr3h6DLuVFpIE48-1euQiv8CRyCxFs&cs=200x200)
 
@@ -11,7 +12,7 @@
 - **Discord:** Maksim (@orgris)
 
 
-## About Me
+## Summary
 
 A dedicated beginner developer with a passion for learning and developing high-quality products. Committed to keeping up with the latest web technologies and trends to continuously improve and expand professional abilities in the field of web development.
 
@@ -26,9 +27,7 @@ My key strengths include strategic thinking, collaboration, and adaptability.
 
 ## Code example
 
-#### Multiply kata from Codewars: 
-
-This code does not execute properly. Try to figure out why.
+**Multiply kata from Codewars:** This code does not execute properly. Try to figure out why.
 
     function multiply(a, b){
         return a * b
