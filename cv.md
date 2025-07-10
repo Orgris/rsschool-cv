@@ -1,5 +1,5 @@
-# Maksim Zhidkov
-## Beginner Frontend Developer
+# **Maksim Zhidkov**
+## **Beginner Frontend Developer**
 
 <img src="/assets/img/image-round.png" width="100" alt="My avatar" />
 
