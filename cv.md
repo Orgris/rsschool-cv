@@ -1,7 +1,7 @@
 # **Maksim Zhidkov**
 ## **Beginner Frontend Developer**
 
-<img src="/assets/img/image-round.png" width="100" alt="My avatar" />
+![My photo](https://sun2-19.userapi.com/s/v1/if1/MSCREKV5nRM1bsVIyz7eBwmoz7wvBaMQ0mv92i9DdcVTPSfIKe6xqocNCKbHi55lVq8hWFLe.jpg?quality=96&crop=48,351,335,335&as=32x32,48x48,72x72,108x108,160x160,240x240&ava=1&u=UPHAc8FxrtVYXWr3h6DLuVFpIE48-1euQiv8CRyCxFs&cs=200x200)
 
 ## Contacts
 
