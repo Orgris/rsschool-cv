@@ -178,6 +178,7 @@ body {
     background-image: url("../assets/svg/rsschool-logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    color: transparent;
 }
 
 .section-item {
